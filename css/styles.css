@@ -95,32 +95,30 @@ font-size: 48px;
   padding-top: 5%;
 }
 
-footer{
+.made{
   position: fixed;
-  left: 0;
+  right: 0;
   bottom: 0;
-  width: 98%;
-  margin-right: 5%;
+  padding: 20px;
   text-align: right;
   font-weight: bold;
   font-style: italic;
-
 }
 slider {
  border: 5px solid #E0129B
  display: block;
  width: 91%;
- max-height: 500px;
+ height: 68%;
  background-color: white;
  overflow: hidden;
- position:absolute;
+ position: absolute;
 }
 
 slider > * {
- position: relative;
+ position: absolute;
  display: block;
  width: 100%;
- max-height: 500px;
+ height: 100%;
  border:1px solid #E0129B;
  background: #1f1f1f;
  animation: slide 12s infinite;
