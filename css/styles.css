@@ -1,11 +1,31 @@
+.container1{
+  display: flex;
+  max-width: 100%;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+}
+.container2{
+  margin: 3%;
+  display: flex;
+  width: 100%;
+
+}
+.logo{
+  padding-left: 5%;
+
+}
 .nav{
   display: flex;
   justify-content: space-around;
+  flex-shrink: 1;
   font-weight: bold;
   font-family: open Sans;
+  width: 72%;
   align-items: center;
-  margin-right: 50px;
-  max-width: 100%;
+
 }
 
 .Search{
@@ -31,7 +51,8 @@
   margin-right: 5px;
 }
 
-.main{
+.book{
+  display: flex;
   width: 100%;
 }
 .Welcome {
@@ -41,7 +62,7 @@
   width: 90%;
   padding-top: 5%;
   padding-bottom: 5%;
-  font-size: 68px;
+
 }
 .language
 {
@@ -198,8 +219,27 @@ slide p {
   text-align: center;
   color: #E0129B;
 }
-@media screen and (min-width: 300px) and (max-width: 600px) {
 
+footer{
+  display: flex;
+}
+@media screen and (min-width: 300px) and (max-width: 700px) {
+
+  .container1{
+    flex-direction: column;
+  }
+
+  .logo{
+    padding-right: 10%;
+    width: 40%;
+  }
+  .nav{
+    padding-left: 5%;
+  }
+
+  .home{
+    padding: 3%;
+  }
   .search
   {
     display: none;
@@ -210,26 +250,56 @@ slide p {
   .language{
     display: none;
   }
-  .nav{
-    padding-left: 25vh;
-    display:flex;
+  .stories{
+    padding: 3%;
+  }
 
-    display: center;
+  .about{
+    padding: 3%;
   }
-  .main{
-    width: 60%;
-    height: 60%;
+  .book{
+    display: flex;
+    justify-content: center;
   }
-  .Welcome {
-    font-size: 40px;
-    width: 90%;
-    padding-left: 15vh;
+
+  .book1{
+    align-items: center;
+    max-width: 100%;
   }
-  .text{
-    display: none;
+
+  .essay{
+    text-align: center;
+    font-size: 70%;
+    width: 100%;
   }
+  .Welcoming {
+    display: flex;
+
+  }
+.welcome{
+  font-size: 40px;
+  width: 90%;
+  padding-left: 5%;
+
+}
 
   .story{
-    display: block;
-    padding-left:12vh;
+    display: flex;
+    max-width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 5%;
+    padding-left: 10%;
+
   }
+  .others{
+    display: none;
+  }
+.ppt{
+  display: none;
+}
+.made{
+  text-align: right;
+  padding-top: 2%;
+  font-size: 50%;
+}
