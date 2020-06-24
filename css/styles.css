@@ -229,7 +229,8 @@ footer{
 @media screen and (min-width: 300px) and (max-width: 700px) {
 
   .container1{
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto;
   }
 
   .logo{
@@ -255,6 +256,7 @@ footer{
   }
   .stories{
     padding: 3%;
+
   }
 
   .about{
@@ -271,9 +273,9 @@ footer{
   }
 
   .essay{
-    text-align: center;
+    text-align: justify;
     font-size: 70%;
-    width: 100%;
+    width: 90%;
   }
   .Welcoming {
     display: flex;
@@ -287,14 +289,20 @@ footer{
 }
 
   .story{
-    display: flex;
+    display: grid;
     max-width: 70%;
     max-height: 70%;
-    flex-direction: column;
     justify-content: center;
     padding-right: 5%;
     padding-left: 10%;
 
+  }
+
+  .face{
+    width: 90%;
+    padding-left: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
   .others{
     display: none;
