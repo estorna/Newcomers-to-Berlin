@@ -55,7 +55,7 @@
   display: flex;
   width: 100%;
 }
-.Welcome {
+.welcome {
   text-align: center;
   font-family: Playball;
   font-size: 62px;
@@ -282,7 +282,7 @@ footer{
 
   }
 .welcome{
-  font-size: 40px;
+  font-size: 28px;
   width: 90%;
   padding-left: 5%;
 
@@ -309,6 +309,10 @@ footer{
   }
 .ppt{
   display: none;
+}
+
+.rdfull{
+  width: 70%;
 }
 
 #comments{
